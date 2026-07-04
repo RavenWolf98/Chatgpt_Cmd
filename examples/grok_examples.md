@@ -2,6 +2,9 @@
 
 Same command format works:
 
+/help
+→ lists all available commands
+
 /ts 14:00
 → uses current time as end time
 

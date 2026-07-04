@@ -1,5 +1,8 @@
 # Examples
 
+/help
+→ lists all available commands
+
 /ts 13:00
 → 4 Hours 52 Minutes
 

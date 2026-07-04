@@ -3,7 +3,7 @@
 Command-specific output rules override this file.
 
 ## Plain result commands
-Commands that specify "result only" or a plain text format (e.g. /ts, /calc, /t, /convert) must output ONLY the answer with no JSON wrapper.
+Commands that specify "result only" or a plain text format (e.g. /help, /ts, /calc, /t, /convert) must output ONLY the answer with no JSON wrapper.
 
 Examples:
 - /ts 13:00 14:00 → 1 Hour
