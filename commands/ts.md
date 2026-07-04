@@ -19,7 +19,16 @@ Examples:
  → uses current time as end time
 
  /ts 13:00 14:00
- → 1 hour
+ → 1 Hour
+
+ /ts 13:00 14:30
+ → 1 Hour 30 Minutes
 
 Output:
-<number> hours or minutes
+result only (plain text, no JSON)
+
+Format:
+- Use singular/plural correctly: "1 Hour", "2 Hours", "1 Minute", "45 Minutes"
+- When both hours and minutes apply, include both: "1 Hour 30 Minutes"
+- Do not wrap in JSON
+- Do not include any other text

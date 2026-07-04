@@ -1,10 +1,13 @@
 # Examples
 
 /ts 13:00
-→ uses current time → returns duration
+→ 4 Hours 52 Minutes
 
 /ts 13:00 14:00
-→ 1 hour
+→ 1 Hour
+
+/ts 13:00 14:30
+→ 1 Hour 30 Minutes
 
 /t 1300
 → 1:00 PM

@@ -9,9 +9,13 @@ Parsing rules:
 
 Execution rules:
 - Use logical reasoning only (no external tools)
-- Output JSON only
+- Follow the output format defined in each command's spec file
 
-Output format:
+Output priority:
+1. If a command file defines plain text output (e.g. "result only"), output ONLY that answer
+2. Otherwise, output JSON
+
+JSON format (only when command does not define plain output):
 {
   "command": "",
   "status": "success|needs_input|error",
