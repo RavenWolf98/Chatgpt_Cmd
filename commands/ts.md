@@ -28,7 +28,7 @@ Output:
 result only (plain text, no JSON)
 
 Format:
-- Use singular/plural correctly: "1 Hour", "2 Hours", "1 Minute", "45 Minutes"
-- When both hours and minutes apply, include both: "1 Hour 30 Minutes"
+- Use singular/plural correctly: "1 Hour", "2 Hours", "1 Minute", "45 Minutes."
+- When both hours and minutes apply, include both: "1 Hour 30 Minutes."
 - Do not wrap in JSON
 - Do not include any other text
