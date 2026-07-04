@@ -7,7 +7,7 @@ Description:
 List all available commands and what each command does.
 
 Rules:
-- Read all command definitions in the commands/ folder
+- Use commands/index.md as the source of truth for valid commands
 - Include /help in the list
 - Show command name and a short description for each
 
