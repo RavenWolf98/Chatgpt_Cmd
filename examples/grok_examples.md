@@ -3,7 +3,10 @@
 Same command format works:
 
 /ts 14:00
-→ interpret as time difference
+→ uses current time as end time
+
+/ts 13:00 14:00
+→ 1 hour
 
 /calc 50/2
 → 25
